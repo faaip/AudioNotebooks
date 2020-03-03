@@ -7,22 +7,23 @@ The notebooks act like interactive utility scripts for converting between differ
 ## Update to Python3
 The intention behind this fork is simply to rewrite the code, so it'll run and function with Python3. I am rewriting this as I find time and need for the various notebooks. The progress is as follows:
 - [ ] Collect Metadata.ipynb
-- [ ] Collect Samples.ipynb
+- [x] Collect Samples.ipynb
 - [ ] Fingerprints and Labels to Classifier.ipynb
 - [ ] Fingerprints to K-Means Colors.ipynb
 - [ ] Fingerprints to Spritesheet.ipynb
-- [ ] Fingerprints to t-SNE.ipynb
+- [x] Fingerprints to t-SNE.ipynb
 - [ ] Generating Spectrograms.ipynb
 - [ ] Gentle to Samples.ipynb
 - [ ] HDF5 to LSTM.ipynb
 - [ ] Instantaneous Frequency and Phase Derivatives.ipynb
 - [ ] Metadata to Labels.ipynb
 - [ ] Multisamples to Samples.ipynb
-- [ ] Samples to Audio Spritesheet.ipynb
-- [ ] Samples to Fingerprints.ipynb
+- [x] Samples to Audio Spritesheet.ipynb
+- [x] Samples to Fingerprints.ipynb
 - [ ] Samples to HDF5.ipynb
 - [ ] Sphinx to Samples.ipynb
-- [ ] utils/bhtsne.py
+- [x] utils/__init__.py
+- [x] utils/bhtsne.py
 - [ ] utils/ffmpeg_load_audio.py
 - [ ] utils/ffmpeg_save_audio.py
 - [ ] utils/list_all_files.py
@@ -30,7 +31,7 @@ The intention behind this fork is simply to rewrite the code, so it'll run and f
 - [ ] utils/mkdir_p.py
 - [ ] utils/normalize.py
 - [ ] utils/normalize.py
-- [ ] utils/show_array.py
+- [x] utils/show_array.py
 
 ## Setup
 
