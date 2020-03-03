@@ -4,6 +4,34 @@ A collection of Jupyter Notebooks related to audio processing.
 
 The notebooks act like interactive utility scripts for converting between different representations, usually stored in `data/project/` where `project` is the dataset you're working with. Generally, if you change `data_root` near the top of the notebook and run the reset of the notebook, it will do something useful.
 
+## Update to Python3
+The intention behind this fork is simply to rewrite the code, so it'll run and function with Python3. I am rewriting this as I find time and need for the various notebooks. The progress is as follows:
+- [ ] Collect Metadata.ipynb
+- [ ] Collect Samples.ipynb
+- [ ] Fingerprints and Labels to Classifier.ipynb
+- [ ] Fingerprints to K-Means Colors.ipynb
+- [ ] Fingerprints to Spritesheet.ipynb
+- [ ] Fingerprints to t-SNE.ipynb
+- [ ] Generating Spectrograms.ipynb
+- [ ] Gentle to Samples.ipynb
+- [ ] HDF5 to LSTM.ipynb
+- [ ] Instantaneous Frequency and Phase Derivatives.ipynb
+- [ ] Metadata to Labels.ipynb
+- [ ] Multisamples to Samples.ipynb
+- [ ] Samples to Audio Spritesheet.ipynb
+- [ ] Samples to Fingerprints.ipynb
+- [ ] Samples to HDF5.ipynb
+- [ ] Sphinx to Samples.ipynb
+- [ ] utils/bhtsne.py
+- [ ] utils/ffmpeg_load_audio.py
+- [ ] utils/ffmpeg_save_audio.py
+- [ ] utils/list_all_files.py
+- [ ] utils/make_mosaic.py
+- [ ] utils/mkdir_p.py
+- [ ] utils/normalize.py
+- [ ] utils/normalize.py
+- [ ] utils/show_array.py
+
 ## Setup
 
 [librosa](https://github.com/bmcfee/librosa) currently needs some extra help on OS X, make sure to follow the instructions [here](https://github.com/bmcfee/librosa#hints-for-os-x) first.
