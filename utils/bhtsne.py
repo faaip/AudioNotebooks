@@ -147,7 +147,7 @@ def bh_tsne(samples, no_dims=DEFAULT_NO_DIMS, initial_dims=INITIAL_DIMENSIONS, p
             result_samples, result_dims = _read_unpack('ii', output_file)
             # Collect the results, but they may be out of order
             results = [_read_unpack('{}d'.format(result_dims), output_file)
-                for _ in xrange(result_samples)]
+                for _ in range(result_samples)]
             # Now collect the landmark data so that we can return the data in
             #   the order it arrived
             results = [(_read_unpack('i', output_file), e) for e in results]
